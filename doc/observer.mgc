@@ -1,0 +1,31 @@
+@startuml
+
+
+	class Observer{
+		+void update(Data data);
+	}
+
+
+	class Observable {
+		-List<Observer> observers;
+
+		+void addObserver();
+
+		+void removeObserver();
+
+		+notifyDateChange();
+
+	}
+
+	class Weather extends Observable{
+
+	}
+
+	class NoticeObserver extends Observer{
+
+	}
+
+	Observable <--* Observer
+
+
+@enduml
