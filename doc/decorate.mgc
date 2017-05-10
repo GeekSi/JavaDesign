@@ -1,0 +1,27 @@
+@startuml
+
+interface Coffee{
+	+float cost()
+}
+
+class MoKaCoffee implements Coffee
+
+class CappuccinoCoffee implements Coffee
+
+class Decorate implements Coffee{
+	+Coffee coffee
+	+Decorate(Coffee coffee)
+}
+
+class Chocolate extends Decorate{
+
+}
+
+class GreenTea extends Decorate{
+	
+}
+class Milk extends Decorate{
+	
+}
+
+@enduml
