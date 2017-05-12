@@ -1,0 +1,18 @@
+@startuml
+
+package Strategy{
+	
+interface IStrategy
+
+class StrategyA implements IStrategy
+
+class Context{
+	IStrategy strategy;
+	--
+	void excute()
+}
+
+Context ..> IStrategy
+}
+
+@enduml

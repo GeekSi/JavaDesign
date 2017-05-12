@@ -1,0 +1,20 @@
+@startuml
+package 抽象工厂{
+	interface Engine
+	interface Wheel
+	class EngineA implement Engine
+	class EngineB implement Engine
+	class WheelA implement Wheel
+	class WheelB implement Wheel
+
+	interface AbsFactory{
+		Engine createEngine()
+		Wheel createWheel()
+	}
+
+	
+
+
+}
+
+@enduml

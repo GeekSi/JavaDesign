@@ -1,0 +1,14 @@
+@startuml
+
+package Template{
+	
+class AbstractSort {
+	void otherMethod()
+	..
+	abstract void sort()
+}
+
+class SortA extends AbstractSort
+}
+
+@enduml

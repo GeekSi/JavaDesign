@@ -1,0 +1,33 @@
+
+
+@startuml
+
+package FactoryMethod{
+
+note "工厂方法主要特点 ：一个工厂对应\n一个产品多个产品创建多个工厂" as N1
+
+class Client
+
+interface IFactory
+
+interface IProduct
+
+class FactoryA implements IFactory
+
+class ProductA implements IProduct
+
+Client -->IFactory
+
+Client -->IProduct
+
+FactoryA ..> ProductA
+
+class FactoryB implements IFactory
+
+class ProductB implements IProduct
+
+FactoryB ..> ProductB
+
+}
+
+@enduml
