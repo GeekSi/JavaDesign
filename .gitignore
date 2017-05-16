@@ -1,1 +1,6 @@
-bin/*
+bin
+.metadata/*
+.classpath
+.gitignore.swp
+.project
+.settings

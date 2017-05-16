@@ -5,6 +5,10 @@ import com.design.decorate.createcomponent.KabucoCoffee;
 import com.design.decorate.decorate.ChocolateDecorate;
 import com.design.decorate.decorate.MilkDecorate;
 
+/**
+ * @author siqing
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
