@@ -1,4 +1,4 @@
-package com.design.singleinstance;
+package com.design.createmode.singleinstance;
 
 public class SingleInstance2 {
 	private static SingleInstance2 _instance;

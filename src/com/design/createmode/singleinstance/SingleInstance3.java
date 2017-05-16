@@ -1,4 +1,4 @@
-package com.design.singleinstance;
+package com.design.createmode.singleinstance;
 
 public enum SingleInstance3 {
 	INSTANCE;
