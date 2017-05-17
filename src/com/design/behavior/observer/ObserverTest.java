@@ -1,4 +1,4 @@
-package com.design.observer;
+package com.design.behavior.observer;
 
 public class ObserverTest {
 	

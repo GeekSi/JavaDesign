@@ -1,6 +1,6 @@
-package com.design.decorate.createcomponent;
+package com.design.behavior.decorate.createcomponent;
 
-import com.design.decorate.component.Coffee;
+import com.design.behavior.decorate.component.Coffee;
 
 public class KabucoCoffee implements Coffee{
 

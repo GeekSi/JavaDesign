@@ -1,4 +1,4 @@
-package com.design.decorate.component;
+package com.design.behavior.decorate.component;
 
 public interface Coffee {
 	

@@ -1,9 +1,9 @@
-package com.design.decorate;
+package com.design.behavior.decorate;
 
-import com.design.decorate.component.Coffee;
-import com.design.decorate.createcomponent.KabucoCoffee;
-import com.design.decorate.decorate.ChocolateDecorate;
-import com.design.decorate.decorate.MilkDecorate;
+import com.design.behavior.decorate.component.Coffee;
+import com.design.behavior.decorate.createcomponent.KabucoCoffee;
+import com.design.behavior.decorate.decorate.ChocolateDecorate;
+import com.design.behavior.decorate.decorate.MilkDecorate;
 
 /**
  * @author siqing

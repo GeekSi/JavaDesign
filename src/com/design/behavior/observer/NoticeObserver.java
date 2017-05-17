@@ -1,4 +1,4 @@
-package com.design.observer;
+package com.design.behavior.observer;
 
 import java.util.Observable;
 import java.util.Observer;

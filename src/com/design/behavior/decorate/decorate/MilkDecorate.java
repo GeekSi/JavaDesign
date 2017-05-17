@@ -1,6 +1,6 @@
-package com.design.decorate.decorate;
+package com.design.behavior.decorate.decorate;
 
-import com.design.decorate.component.Coffee;
+import com.design.behavior.decorate.component.Coffee;
 
 public class MilkDecorate extends DecorateCoffe{
 
